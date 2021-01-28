@@ -1,0 +1,8 @@
+FROM node:10.14-alpine
+MAINTAINER kanagawa App Developer Ltd
+
+RUN npm install -g create-react-app
+RUN npm install axios
+RUN npm install react-cookie
+RUN npm install @material-ui/core
+RUN npm install react-router-dom
